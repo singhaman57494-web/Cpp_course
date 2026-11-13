@@ -1,2 +1,2 @@
-# c-_course
+# c++_course
 programming in c++ 
