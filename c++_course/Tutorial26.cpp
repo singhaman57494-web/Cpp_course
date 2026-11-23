@@ -45,7 +45,7 @@ int main()
 }
 
 /*
-//  properties of friend functions
+//  properties of friend functions:
 
 1. not in the scope of class.
 2. since it is not in the scope of the class, it cannot be called from the object of
