@@ -1,4 +1,4 @@
-//                   functions & function prototypes
+//                   functions & function prototypes in c++
 
 #include <iostream>
 using namespace std;
