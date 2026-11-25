@@ -43,5 +43,5 @@ int main()
 2. they ae automatically invoked whenever the object is created.
 3. they cannot return values and do not have return types.
 4. it can have default arguments
-5. we cannot refer to their address.
+5. we cannot refer to their
 */
