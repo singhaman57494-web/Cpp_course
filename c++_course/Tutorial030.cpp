@@ -8,24 +8,29 @@ class Complex
     int a, b;
 
 public:
-    Complex(void);
+    Complex(int x, int y);
 
     void printNumber()
     {
-        cout<<"your number is "<< a <<" + " << b << " i " << endl;
+        cout<<"your number is "<< a <<" + " << b << "i" << endl;
     }
 };
 
-Complex::Complex(void) // this is a default constructor
+Complex::Complex(int x, int y)  //this is a parameterized constructor
 {
-    a = 10;
-    b = 20;
-    cout<<"hello world"<<endl;
+    a = x;
+    b = y;
+    // cout<<"hello world"<<endl;
 }
 
 int main()
 {
-    Complex a;
+    // Implicit call
+    Complex a(4, 6);
     a.printNumber();
+
+    // Explicit call
+    Complex b = Complex(5, 7);
+    b.printNumber();
     return 0;
 }
